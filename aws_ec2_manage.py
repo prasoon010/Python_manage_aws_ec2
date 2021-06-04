@@ -154,7 +154,7 @@ while stat != 'q':
     elif stat == '4':
         if insta_list[insta_id]['state'] != 'terminated':
             print('Terminating the instance\n')
-            terminateinsta(insta_id, region
+            terminateinsta(insta_id, region)
         else:
             print('Invalid option: Instance state is: {}'.format(insta_list[insta_id]['state']))
     elif stat == 'q':
